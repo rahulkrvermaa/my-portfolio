@@ -44,7 +44,7 @@ export interface Project {
  keyHighlights: string[];
  architectureOverview: string;
  githubUrl: string;
- demoUrl: string;
+ demoUrl?: string;
 }
 
 export interface Experiment {
